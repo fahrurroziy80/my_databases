@@ -1,5 +1,7 @@
 # API Akademik - Mahasiswa Management
 
+## Download project mobile nya disini -> https://github.com/fahrurroziy80/my_mobile
+
 Backend API untuk manajemen data mahasiswa menggunakan Express.js dan MySQL.
 
 ## Instalasi
