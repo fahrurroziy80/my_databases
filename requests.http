@@ -1,0 +1,29 @@
+### GET semua mahasiswa
+GET http://localhost:3000/akademik/mahasiswa/
+
+### GET mahasiswa by NIM
+GET http://localhost:3000/akademik/mahasiswa/001
+
+### POST Create mahasiswa baru
+POST http://localhost:3000/akademik/mahasiswa/
+Content-Type: application/json
+
+{
+  "nim": "004",
+  "nama": "Budi Santoso",
+  "jurusan": "Teknik Elektro",
+  "email": "budi@example.com",
+  "no_hp": "081234567893"
+}
+
+### PUT Update mahasiswa
+PUT http://localhost:3000/akademik/mahasiswa/001
+Content-Type: application/json
+
+{
+  "nama": "John Updated",
+  "email": "john.updated@example.com"
+}
+
+### DELETE mahasiswa
+DELETE http://localhost:3000/akademik/mahasiswa/001
